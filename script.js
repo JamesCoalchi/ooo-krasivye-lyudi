@@ -1,5 +1,5 @@
 let confirmationCount = 0;
-const maxConfirmations = 6;
+const maxConfirmations = 5;
 const buyButtons = document.querySelectorAll('.buy-button');  // Select all buy buttons
 
 buyButtons.forEach(function(button) {

@@ -1,5 +1,5 @@
 let confirmationCount = 0;
-const maxConfirmations = 5;
+const maxConfirmations = 6;
 document.querySelector('.buy-button').addEventListener('click', function() {
   confirmationCount++;
   if (confirmationCount < maxConfirmations) {
